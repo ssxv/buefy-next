@@ -25,6 +25,7 @@
             :value="nativeValue"
             :true-value="trueValue"
             :false-value="falseValue"
+            :aria-label="ariaLabel"
             :aria-labelledby="ariaLabelledby"
         >
         <span class="check" :class="type" />

@@ -9,7 +9,8 @@ export default defineComponent({
         disabled: Boolean,
         required: Boolean,
         name: String,
-        size: String
+        size: String,
+        ariaLabel: String
     },
     emits: {
         // eslint-disable-next-line max-len

@@ -68,5 +68,8 @@
     "rimraf": "^5.0.10",
     "rollup-plugin-esbuild": "^6.1.0",
     "vitest": "^3.0.6"
+  },
+  "volta": {
+    "node": "16.20.2"
   }
 }

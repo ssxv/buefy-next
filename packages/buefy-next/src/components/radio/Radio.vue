@@ -16,6 +16,7 @@
             :required="requiredOrUndefined"
             :name="name"
             :value="nativeValue"
+            :aria-label="ariaLabel"
         >
         <span class="check" :class="type" />
         <span class="control-label"><slot /></span>
